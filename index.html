@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- Iconos -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Consulta tu tiempo</title>
+  </head>
+  <body>
+    <div class="global">
+      <div id="search" class="search">
+        <form action="#">
+          <input
+            id="city"
+            value=""
+            class="search__city"
+            type="text"
+            placeholder="Introduce la ciudad"
+          />
+          <button id="btnSearch" class="search__button">Buscar</button>
+        </form>
+      </div>
+  
+      <div id="infoCity" class="container_infoCity"></div>
+
+      <section id="container" class="container">
+        <div id="container__WeatherForecast" class="container__left"></div>
+        <div id="container__InfoWeather" class="container__right"></div>
+      </section>
+    </div>
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
